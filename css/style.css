@@ -48,7 +48,7 @@
     width: 20%;
     float: left;
     text-align: center;
-    background: #332D1A
+    background: #332D1A;
 }
 
 .main-nav ul li a{
@@ -65,7 +65,7 @@
 
 .main-nav ul li a:hover{
     font-size: 30px;
-    background: gray;
+    background: #2C331C;
 }
 
 aside {
@@ -78,9 +78,9 @@ aside {
 
 aside img:first-child {
     position: relative; 
-    padding: 10%;
+    padding: 5%;
     top: 40px;
-    left: 10px;
+    left: 48px;
 }
 
 aside ul li {
@@ -91,6 +91,10 @@ aside ul li {
 aside ul li a {
     color: #E8F5C1;
     text-decoration: none;
+}
+
+aside ul li:hover{
+    background: gray;
 }
 
 aside form{
