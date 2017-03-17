@@ -1,0 +1,152 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.container {
+    overflow: auto;
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background: url(../images/aud.jpg);
+    float: left;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+/*    margin-bottom: 30px;*/
+}
+
+.banner h1 {
+    color: white;
+    font-size: 35px;
+    position: ;
+    bottom: 20px;
+    left: 20px;
+/*    position: absolute;*/
+    text-align:center;
+}
+
+.main-nav {
+    width: 100%;
+    height: 60px;
+    clear: left;
+    float: left;
+/*    margin-bottom: 10px;*/
+}
+
+.main-nav ul {
+    list-style: none;
+}
+
+.main-nav ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    background: #332D1A
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: #BBEDB8;
+    display: inline-block;
+    width: 80%;
+    line-height: 60px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    font-size: 24px;
+    transition: .5s;
+}
+
+.main-nav ul li a:hover{
+    font-size: 30px;
+    background: gray;
+}
+
+aside {
+    width: 30%;
+    height: 500px;
+    background: #6E4631;
+    clear: left;
+    float: left;
+}
+
+aside img:first-child {
+    position: relative; 
+    padding: 10%;
+    top: 40px;
+    left: 10px;
+}
+
+aside ul li {
+    list-style-type: none;
+    margin: 20px 0 10px 10px;
+}
+
+aside ul li a {
+    color: #E8F5C1;
+    text-decoration: none;
+}
+
+aside form{
+    text-align: center;
+    margin-top: 20px;
+}
+
+aside form input:first-child {
+    background: #FAEDED;
+    width: 80%;
+    height: 25px;
+    border: 5px 2F619E solid;
+}
+
+aside form input:nth-child(2) {
+    background: #33362A;
+    color: #E8F5C1
+}
+
+main {
+    width: 70%;
+    height: 500px;
+    float: left;
+    background: #EDB98D;
+}
+
+.header-style-1 {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.hero-img {
+    display: block;
+    float: right;
+}
+
+main p {
+    padding: 20px;
+}
+
+.drop-cap:first-letter {
+    float: left;
+    font-size: 50px;
+    margin-right: 10px;
+    position: relative;
+    margin-right: 10px;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    background: #332D1A;
+    clear: both;
+    color: #E8F5C1;
+    text-align: center;
+    line-height: 40px;
+}
